@@ -1,53 +1,36 @@
-# `coding-challenge`
-_Paired Programming Coding Challenge for Algomo Engineering Interviews_
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Hi! Thank you for taking the time to complete our coding challenge. The objective is is to build an application for triaging issues, during a **_paired programming interview session_**
+## Getting Started
 
-Depending on the role you have applied for, the focus will be full-stack or front-end focused. 
+First, run the development server:
 
-We want to understand how you work and get a view into your thought process/problem solving skills. As with all interviews this is a two-way street - it's also an opportunity for you to evaluate working with us! 🙂
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## `tl;dr`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- The paired-programming session should take around 1.5 hours
-  - Expect around 1 hour of coding, and 30 minutes at the end for technical questions about your solution
-- **We're not expecting you to develop the entire application within the timeslot!**
-  - It's up to you to decide how to break the problem into smaller features/what to build during the session
-  - Ultimately we want to assess your technical skills and problem-solving abilities
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Instructions
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository in GitHub
-- Make sure you have VSCode installed, along with the [LiveShare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) extension
-- The back-end should be written using NodeJS/TypeScript, and the front-end using React
-  - If you are more comfortable using other languages, please let us know before arranging the interview!
-- **Before the interview, you should bootstrap your repository fork with a basic scaffold for the application**.
-  - You are free to structure the repository how you see fit
-    - If you're not sure where to start, we recommend running `yarn create vite` for the front end or using https://github.com/mantinedev/vite-template
-    - For the back-end (if applicable) there are plenty of choices (Nest.js, Express, Koa, Fastify, just to name a few), again if you're not sure which to use, then we suggest [Express](https://expressjs.com/)
-  - You do not need to worry about choosing a database - it is completely fine to use stub data instead
-  - You should include instructions on how to run the application (e.g. `docker-compose up`), along with any pre-requisites for installation
+## Learn More
 
-## Application Requirements
+To learn more about Next.js, take a look at the following resources:
 
-We want you to build an issue triaging board (think something along the lines of JIRA/Linear)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-This application should consist of two main services: UI and Issue Management (back-end).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-**_If you are applying for a front-end role, you can ignore the back-end service and instead stub network requests._**
+## Deploy on Vercel
 
-Build an application with the following functionality (you may use the layout below for inspiration):
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Display a list of all Issues to be Triaged
-- Filter the list of Issues
-- View details for the selected Issue
-- Accept or Decline Issues
-
-![Issue triaging](./coding-challenge.png)
-
-
-## Final Thoughts
-
-This exercise leaves you a fair amount of flexibility. This emulates the way we work. We are a dynamic start-up and a successful candidate will often have to deal with similar uncertainty.
-
-Above all, we hope this test is enjoyable! We'd love to hear your feedback too.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
